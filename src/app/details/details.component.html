@@ -1,0 +1,28 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Customer Details</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let customerDetail of filterData">
+        <td>Name</td>
+        <td><input type="text" class="form-control" value="{{ customerDetail.name }}"></td>
+      </tr>
+      <tr *ngFor="let customerDetail of filterData">
+        <td>Mobile Number</td>
+        <td><input type="number" class="form-control" value="{{ customerDetail.mobile }}"></td>
+      </tr>
+      <tr *ngFor="let customerDetail of filterData">
+        <td>Address</td>
+        <td><textarea name="" id="" cols="15" rows="3" class="form-control" value="{{ customerDetail.address }}"></textarea></td>
+      </tr>
+    
+    </tbody>
+    <div class="row">
+        <!-- <button class="btn btn-success btn-md">Save</button><br><br> -->
+        &nbsp;<button class="btn btn-success btn-md">Update</button>
+        &nbsp;<button class="btn btn-success btn-md">Delete</button>
+      </div>
+  </table>
+  

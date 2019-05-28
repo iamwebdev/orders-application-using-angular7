@@ -1,0 +1,15 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Customer List</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers">
+        <td>{{ customer.name }}</td>
+        <td><a routerLink="/customer-details/{{customer.id}}" class="btn btn-warning btn-md">View Details</a></td>
+      </tr>
+      
+    </tbody>
+  </table>
+  

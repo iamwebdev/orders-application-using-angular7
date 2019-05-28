@@ -1,0 +1,23 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Order Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let orderDetail of filterData">
+        <td>Name</td>
+        <td><input type="text" class="form-control" value="{{ orderDetail.order_name }}" readonly></td>
+      </tr>
+      <tr *ngFor="let orderDetail of filterData">
+        <td>Quantity</td>
+        <td><input type="number" class="form-control" value="{{ orderDetail.quantity }}" readonly></td>
+      </tr>
+      <tr *ngFor="let orderDetail of filterData">
+        <td>Order Number</td>
+        <td><input type="text" class="form-control" value="{{ orderDetail.order_no }}" readonly></td>
+      </tr>
+      
+    </tbody>
+  </table>
+  

@@ -1,0 +1,13 @@
+[
+    {"id": 1, "customer_id": 1, "order_no": "ORD-101", "order_name": "pizza", "quantity": "2" },
+    {"id": 2,"customer_id": 1, "order_no": "ORD-102", "order_name": "Mango", "quantity": "5"},
+    {"id": 3,"customer_id": 1, "order_no": "ORD-103", "order_name": "Burger", "quantity": "3"},
+    {"id": 4,"customer_id": 2, "order_no": "ORD-104", "order_name": "apple", "quantity": "3"},
+    {"id": 5,"customer_id": 2, "order_no": "ORD-105", "order_name": "football", "quantity": "3"},
+    {"id": 6,"customer_id": 2, "order_no": "ORD-106", "order_name": "orane", "quantity": "3"},
+    {"id": 7,"customer_id": 3, "order_no": "ORD-107", "order_name": "Banana", "quantity": "3"},
+    {"id": 8,"customer_id": 3, "order_no": "ORD-108", "order_name": "car", "quantity": "3"},
+    {"id": 9,"customer_id": 3, "order_no": "ORD-109", "order_name": "bike", "quantity": "3"},
+    {"id": 10,"customer_id": 3, "order_no": "ORD-1010", "order_name": "ball", "quantity": "3"},
+    {"id": 11,"customer_id": 3, "order_no": "ORD-1011", "order_name": "bat", "quantity": "3"}
+]

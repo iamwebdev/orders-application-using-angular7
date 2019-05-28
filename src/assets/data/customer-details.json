@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "vivek oberio", "mobile": 8655865877, "address": "New York", "email": "abc@gmail.com"},
+    {"id": 2, "name": "jonh jondo", "mobile": 2342365877, "address": "Chicago", "email": "john@gmail.com"},
+    {"id": 3, "name": "sam smith", "mobile": 86553245877, "address": "Londo", "email": "sam@gmail.com"}
+]

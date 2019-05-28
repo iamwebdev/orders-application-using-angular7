@@ -1,0 +1,29 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr *ngFor="let customer of filterData">
+        <th scope="col" >{{customer.name}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customerid of filterData">
+        <td>Orders</td>
+        <td><a routerLink="/order/{{customerid.id}}" class="btn btn-warning btn-md">Click</a></td>
+      </tr>
+
+      <tr *ngFor="let customerid of filterData">
+        <td>Details</td>
+        <td><a routerLink="/details/{{customerid.id}}" class="btn btn-warning btn-md">Click</a></td>
+      </tr>
+
+      <tr *ngFor="let customerid of filterData">
+        <td>Edit</td>
+        <td><a routerLink="/details/{{customerid.id}}" class="btn btn-warning btn-md">Click</a></td>
+      </tr>
+
+      <tr *ngFor="let customerid of filterData">
+        <td>Delete</td>
+        <td><a routerLink="/details/{{customerid.id}}" class="btn btn-warning btn-md">Click</a></td>
+      </tr>
+    </tbody>
+  </table>
+  

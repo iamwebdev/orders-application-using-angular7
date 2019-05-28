@@ -1,0 +1,84 @@
+
+<div class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <!-- <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> -->
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.navbar -->
+      
+      <div class="container-fluid">
+        <div class="row row-offcanvas row-offcanvas-left">
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <div class="sidebar-nav">
+                    <ul class="nav">
+      
+                        <li class="active"><a href="#"></a></li><br>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a routerLink="/customer-list">Customers</a></li>
+                    </ul>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+      
+            <div class="col-xs-12 col-sm-9">
+                <br>
+                <div class="jumbotron">
+                    <a href="#" class="visible-xs" data-toggle="offcanvas"><i class="fa fa-lg fa-reorder"></i></a>
+                    <a routerLink="/addnew-customers" class="btn btn-success btn-md">Add Customers</a>
+
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <!-- <app-customer-list> </app-customer-list>                        -->
+                    <router-outlet></router-outlet>
+                        
+      
+                    </div>
+                    <!--/span-->
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <!-- <app-customer-details></app-customer-details> -->
+                    </div>
+                    <!--/span-->
+      
+                    <div class="col-6 col-sm-6 col-lg-4">
+                       <!-- <app-order></app-order> -->
+                       <!-- <app-details></app-details> -->
+                    </div>
+                    <!--/span-->
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <!-- <app-order-details></app-order-details> -->
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+            </div>
+            <!--/span-->
+      
+      
+        </div>
+        <!--/row-->
+      
+        <hr>
+      
+       
+      </div>
+      <!--/.container-->
+      
+      

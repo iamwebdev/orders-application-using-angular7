@@ -1,0 +1,16 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Customer Orders</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of filterData">
+        <td>{{ order.order_name }}</td>
+        <td><a routerLink="/order-details/{{order.id}}" class="btn btn-warning btn-md">Click</a></td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
